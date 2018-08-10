@@ -7,6 +7,8 @@ def key_for_min_value(hash)
     if v < lowest_value
       lowest_value = v
       lowest_key = k
+    else
+      nil
     end
   end
   lowest_key
