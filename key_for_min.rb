@@ -1,6 +1,6 @@
 
 def key_for_min_value(hash)
- hash = {:balloons => 12, :candles => 8, :cake => 3}
+
   lowest_key = nil
   lowest_value = Float::INFINITY
   hash.each do |k, v|
@@ -13,3 +13,4 @@ def key_for_min_value(hash)
   end
   lowest_key
 end
+
